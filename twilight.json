@@ -22,7 +22,12 @@
         "component-store-features",
         "component-youtube",
         "menu-images",
-        "filters"
+        "filters",
+        "quick-view",
+        "wishlist",
+        "product-compare",
+        "sticky-header",
+        "dark-mode"
     ],
     "settings": [
         {

@@ -31,10 +31,12 @@ module.exports = {
                 'auto-fill'  : 'repeat(auto-fill, 290px)',
             },
             colors             : {
-                'dark'         : '#1D1F1F',
-                'darker'       : '#0E0F0F',
+                'dark'         : '#1F2937',
+                'darker'       : '#111827',
                 'danger'       : '#AE0A0A',
-                'primary-dark' : 'var(--color-primary-dark)'
+                'primary-dark' : 'var(--color-primary-d)',
+                'estore-orange': '#EF5D2A',
+                'estore-bg'    : '#F2F2F2',
             },
             spacing: {
               '3.75': '15px',
@@ -73,7 +75,7 @@ module.exports = {
                 'dropdown'      : '0 4px 8px rgba(161, 121, 121, 0.07)',
                 'light'   : '0px 4px 15px rgba(1, 1, 1, 0.06)',
                 'huge'    : '0px 3px 6px #00000029',
-                'progress': '0 5px 15px rgba(92, 213, 196, 0.4)',
+                'progress': '0 5px 15px rgba(239, 93, 42, 0.4)',
                 'mobile': 'rgb(0 0 0 / 9%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 18px, rgb(0 0 0 / 9%) -15px 10px 7px, rgb(0 0 0 / 9%) -20px 10px 20px, rgb(0 0 0 / 9%) -20px 10px 20px, rgb(0 0 0 / 9%) -25px 20px 20px',
             },
             width              : {

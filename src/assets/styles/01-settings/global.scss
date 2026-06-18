@@ -9,20 +9,17 @@ $main-text-color: var(--main-text-color);
   --main-text-color: #231f1e;
   --main-text-color-dark: #2b2d34;
 
-  /* current */
-  --color-primary: #5cd5c4;
-  --color-primary: #414042;
-  --color-primary-d: #272628;
-  --color-primary-l: #676668;
-  --color-primary-reverse: #ff6767;
-  --color-text: #7c8082;
-  --bg-gray: #c6c7ce1a;
-  --color-grey: #f5f7f9;
-  --color-light-grey: #eeeeee;
-  /* font-size */
-  --font-sm: 0.8685714286rem;
-  /* font-family: ; */
-  --font-main: "DINNextLTArabic";
+  /* E-Store Theme Colors */
+  --color-primary: #EF5D2A;
+  --color-primary-d: #CC4D23;
+  --color-primary-l: #FF7A4D;
+  --color-primary-reverse: #FF8A65;
+  --color-text: #6B7280;
+  --bg-gray: #F2F2F2;
+  --color-grey: #F5F7F9;
+  --color-light-grey: #E5E7EB;
+  --main-text-color: #1F2937;
+  --main-text-color-dark: #111827;
 
   /* plugins */
   --mm-ocd-width: calc(100% - 51px);

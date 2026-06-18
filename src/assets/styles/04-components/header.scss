@@ -1,7 +1,7 @@
 
 /* Top Nav */
 .top-navbar {
-  @apply flex py-2 min-h-[48px];
+  @apply flex py-2 min-h-[48px] bg-[#F2F2F2];
 
   @screen lg {
     @apply py-1.5;
@@ -20,7 +20,7 @@
   }
 
   .s-search-input{
-    @apply bg-gray-200/50 hover:bg-gray-200/70 border-none;
+    @apply bg-white hover:bg-gray-50 border border-gray-200 rounded-full;
   }
 
   @media (max-width: 640px) {
@@ -63,7 +63,7 @@
 
 /* Main Nav */
 .main-nav-container {
-  @apply min-h-[68px] lg:min-h-[84px];
+  @apply min-h-[68px] lg:min-h-[84px] bg-white shadow-sm;
   
   // Custom background Color
   .has-bg &,

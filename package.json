@@ -1,11 +1,11 @@
 {
-  "name": "theme-raed",
-  "version": "1.0.3",
-  "description": "Salla Theme",
+  "name": "hawas-estore-theme",
+  "version": "1.0.0",
+  "description": "Hawas E-Store - Modern Salla Theme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SallaApp/theme-raed.git"
+    "url": "git+https://github.com/maijor22/Hawas.git"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",

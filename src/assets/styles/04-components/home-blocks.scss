@@ -2,6 +2,8 @@
   Block Title
 */
 .s-block{
+  @apply py-8 md:py-12;
+
   &__title{
     @apply center-between mb-4 md:mb-8;
 
@@ -35,8 +37,10 @@
   Main slider
 */
 .s-block--hero-slider{
+  @apply bg-[#F2F2F2];
+
   .swiper-slide{
-    @apply h-80 sm:h-96 lg:h-116 xl:h-132 relative bg-gray-800;
+    @apply h-80 sm:h-96 lg:h-116 xl:h-132 relative bg-gray-800 rounded-xl overflow-hidden;
 
     .swiper-lazy{
       &:after{
@@ -68,14 +72,14 @@
 
   &--fixed{
     img{
-      @apply w-full object-cover rounded-md border-none block bg-gray-100;
+      @apply w-full object-cover rounded-xl border-none block bg-gray-100;
     }
   }
 }
 
 /* Square Banner Block */
 .banner-entry{
-  @apply h-[200px] bg-gray-100 text-white text-center p-3 xs:p-4 rounded-md overflow-hidden relative bg-cover bg-no-repeat bg-center;
+  @apply h-[200px] bg-gray-100 text-white text-center p-3 xs:p-4 rounded-xl overflow-hidden relative bg-cover bg-no-repeat bg-center;
 
   article{
     @apply flex flex-col items-center justify-center h-full p-2.5 
@@ -89,7 +93,7 @@
     @apply flex flex-col justify-center xs:px-1;
    
     &.text-with-border{
-      @apply xs:border border-dashed border-gray-200 rounded-md;
+      @apply xs:border border-dashed border-gray-200 rounded-xl;
 
       span{
         @apply line-clamp-2;
@@ -221,7 +225,7 @@
   .tab-trigger{
     @apply text-gray-800;
     &.is-active button{
-      @apply text-primary-reverse bg-primary-dark border-primary-dark;
+      @apply text-white bg-[#EF5D2A] border-[#EF5D2A] rounded-full;
     }
   }
 }
@@ -243,7 +247,7 @@
     @apply text-gray-800 font-bold leading-7;
 
     &.is-active button{
-      @apply text-primary-dark border-primary-dark;
+      @apply text-[#EF5D2A] border-[#EF5D2A] rounded-full;
     }
   }
 }
